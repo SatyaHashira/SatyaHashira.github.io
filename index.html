@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satya Dalayi | .NET & Software Engineer</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-blue-600 selection:text-white">
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+        <span class="w-3 h-3 rounded-full bg-blue-500 animate-pulse"></span>
+        Satya Dalayi
+      </a>
+      <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-blue-400 transition">About</a>
+        <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
+        <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+        <a href="#experience" class="hover:text-blue-400 transition">Experience</a>
+        <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+      </div>
+      <a href="resume.pdf" download class="hidden sm:inline-flex items-center gap-2 px-4 py-2 text-sm font-medium bg-blue-600 hover:bg-blue-500 text-white rounded-lg transition shadow-sm">
+        <i class="fa-solid fa-download text-xs"></i> Resume
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="about" class="max-w-6xl mx-auto px-6 pt-16 pb-20 md:pt-24 md:pb-28">
+    <div class="grid md:grid-cols-12 gap-12 items-center">
+      <!-- Left Content -->
+      <div class="md:col-span-7 space-y-6">
+        <div class="inline-flex items-center gap-2 px-3 py-1 text-xs font-semibold rounded-full bg-blue-950/80 text-blue-400 border border-blue-800/60">
+          <i class="fa-solid fa-code"></i> Software Engineer & .NET Specialist
+        </div>
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white leading-tight">
+          Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-300 to-purple-400">Satya Dalayi</span>
+        </h1>
+        <p class="text-lg text-slate-400 leading-relaxed max-w-xl">
+          .NET Developer with nearly 4 years of experience building high-performance backend systems, RESTful APIs, and complex financial enterprise integrations (QuickBooks & Sage Intacct).
+        </p>
+        <div class="flex flex-wrap gap-4 pt-2">
+          <a href="#contact" class="px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm transition shadow-lg shadow-blue-500/20">
+            Get in Touch
+          </a>
+          <a href="https://www.linkedin.com/in/satya-dalayi-dotnetdev/" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-200 font-medium text-sm transition border border-slate-700 flex items-center gap-2">
+            <i class="fa-brands fa-linkedin text-blue-400"></i> LinkedIn Profile
+          </a>
+        </div>
+        <div class="flex items-center gap-6 pt-4 text-xs text-slate-400">
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-location-dot text-slate-500"></i> Hyderabad, India</span>
+          <span class="flex items-center gap-1.5"><i class="fa-solid fa-briefcase text-slate-500"></i> 3+ Years Experience</span>
+        </div>
+      </div>
+      <!-- Right Profile Photo -->
+      <div class="md:col-span-5 flex justify-center">
+        <div class="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80">
+          <div class="absolute inset-0 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-500 blur-2xl opacity-30 transform -rotate-3"></div>
+          <img src="profile.jpg" alt="Satya Dalayi" class="relative w-full h-full object-cover rounded-2xl border-2 border-slate-800 shadow-2xl object-top">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-slate-900/50 border-y border-slate-800/80">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-blue-400 mb-2">Technical Competence</h2>
+        <p class="text-3xl font-bold text-white">Skills & Technologies</p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Backend -->
+        <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 transition">
+          <div class="w-10 h-10 rounded-lg bg-blue-500/10 text-blue-400 flex items-center justify-center text-lg mb-4">
+            <i class="fa-solid fa-gears"></i>
+          </div>
+          <h3 class="text-white font-semibold text-base mb-3">Backend & Frameworks</h3>
+          <ul class="text-sm text-slate-400 space-y-1.5">
+            <li>• C# & Microsoft .NET</li>
+            <li>• ASP.NET Core & MVC</li>
+            <li>• RESTful Web APIs</li>
+            <li>• ADO.NET</li>
+          </ul>
+        </div>
+
+        <!-- Database -->
+        <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 transition">
+          <div class="w-10 h-10 rounded-lg bg-purple-500/10 text-purple-400 flex items-center justify-center text-lg mb-4">
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <h3 class="text-white font-semibold text-base mb-3">Database Management</h3>
+          <ul class="text-sm text-slate-400 space-y-1.5">
+            <li>• Microsoft SQL Server</li>
+            <li>• Query & Stored Proc Optimization</li>
+            <li>• Data Modeling & CRUD</li>
+            <li>• High-Volume Query Tuning</li>
+          </ul>
+        </div>
+
+        <!-- Enterprise Integrations -->
+        <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 transition">
+          <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-lg mb-4">
+            <i class="fa-solid fa-network-wired"></i>
+          </div>
+          <h3 class="text-white font-semibold text-base mb-3">ERP & Integrations</h3>
+          <ul class="text-sm text-slate-400 space-y-1.5">
+            <li>• QuickBooks ERP Integration</li>
+            <li>• Sage Intacct Customization</li>
+            <li>• JavaScript Workflows</li>
+            <li>• Payment API Pipelines</li>
+          </ul>
+        </div>
+
+        <!-- Engineering Practices -->
+        <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 transition">
+          <div class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center text-lg mb-4">
+            <i class="fa-solid fa-code-branch"></i>
+          </div>
+          <h3 class="text-white font-semibold text-base mb-3">Tools & Workflows</h3>
+          <ul class="text-sm text-slate-400 space-y-1.5">
+            <li>• Git & Bitbucket</li>
+            <li>• Postman API Testing</li>
+            <li>• Agile / Scrum Lifecycle</li>
+            <li>• JIRA & Defect Management</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-xs font-semibold uppercase tracking-wider text-blue-400 mb-2">Featured Work</h2>
+        <p class="text-3xl font-bold text-white">Enterprise Projects</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Project 1 -->
+        <div class="p-8 rounded-2xl bg-slate-900/60 border border-slate-800 hover:border-blue-500/40 transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between text-xs text-slate-400 mb-4">
+              <span class="px-2.5 py-1 rounded-full bg-blue-900/40 text-blue-300 border border-blue-800/40">31 Months Duration</span>
+              <span>Dec 2022 – Jun 2025</span>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">QuickBooks ERP Integration & Application Development</h3>
+            <p class="text-xs font-semibold text-blue-400 mb-4">Role: .NET Developer</p>
+            <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              Developed enterprise features and automated data exchange pipelines between client applications and QuickBooks ERP. Designed backend business workflows, implemented robust error handling, optimized SQL Server stored procedures, and rigorously tested REST endpoints using Postman.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-2 pt-4 border-t border-slate-800">
+            <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300 font-mono">C#</span>
+            <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300 font-mono">ASP.NET Core</span>
+            <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300 font-mono">REST APIs</span>
+            <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300 font-mono">SQL Server</span>
+            <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300 font-mono">Git</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="p-8 rounded-2xl bg-slate-900/60 border border-slate-800 hover:border-blue-500/40 transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between text-xs text-slate-400 mb-4">
+              <span class="px-2.5 py-1 rounded-full bg-purple-900/40 text-purple-300 border border-purple-800/40">9 Months Duration</span>
+              <span>Aug 2025 – Apr 2026</span>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Sage Intacct Client Application Development</h3>
+            <p class="text-xs font-semibold text-purple-400 mb-4">Role: Application Developer</p>
+            <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              Built client-specific customizations and workflow enhancements within the Sage Intacct environment using JavaScript. Engineered payment-related API integrations, resolved root-cause application defects, and collaborated with Business Analysts and QA teams within an Agile release cycle.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-2 pt-4 border-t border-slate-800">
+            <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300 font-mono">Sage Intacct</span>
+            <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300 font-mono">JavaScript</span>
+            <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300 font-mono">REST APIs</span>
+            <span class="px-2.5 py-1 text-xs rounded bg-slate-800 text-slate-300 font-mono">Postman</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience & Education -->
+  <section id="experience" class="py-20 bg-slate-900/50 border-t border-slate-800/80">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-12">
+        <!-- Experience -->
+        <div>
+          <h2 class="text-xs font-semibold uppercase tracking-wider text-blue-400 mb-2">Career</h2>
+          <h3 class="text-2xl font-bold text-white mb-8">Work Experience</h3>
+
+          <div class="relative pl-6 border-l-2 border-slate-800 space-y-10">
+            <div class="relative">
+              <span class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-blue-600 border-4 border-slate-950"></span>
+              <span class="text-xs font-semibold text-blue-400 uppercase">Jun 2022 – Apr 2026</span>
+              <h4 class="text-lg font-bold text-white mt-1">Software Engineer</h4>
+              <p class="text-sm text-slate-400 mb-3">Aziro Technologies • Hyderabad, India</p>
+              <ul class="text-sm text-slate-300 space-y-2 list-disc list-inside">
+                <li>Developed and maintained enterprise web applications using C#, ASP.NET Core, and ASP.NET MVC.</li>
+                <li>Designed REST APIs and backend validation logic for third-party ERP integrations.</li>
+                <li>Optimized high-volume SQL Server stored procedures and resolved critical production defects.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div>
+          <h2 class="text-xs font-semibold uppercase tracking-wider text-blue-400 mb-2">Background</h2>
+          <h3 class="text-2xl font-bold text-white mb-8">Education & Credentials</h3>
+
+          <div class="space-y-6">
+            <div class="p-6 rounded-xl bg-slate-900 border border-slate-800">
+              <span class="text-xs font-semibold text-slate-400">2016 – 2020</span>
+              <h4 class="text-base font-bold text-white mt-1">B.Tech in Electronics & Communication Engineering (ECE)</h4>
+              <p class="text-sm text-slate-400">Pragati Engineering College, Kakinada • CGPA: 7.67 / 10</p>
+            </div>
+
+            <div class="p-6 rounded-xl bg-slate-900 border border-slate-800">
+              <span class="text-xs font-semibold text-slate-400">Professional Milestone</span>
+              <h4 class="text-base font-bold text-white mt-1">Enterprise ERP Integration Delivery</h4>
+              <p class="text-sm text-slate-400">Successfully developed, verified, and shipped core business modules connecting client applications with QuickBooks and Sage Intacct platforms.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Footer -->
+  <footer id="contact" class="py-20 border-t border-slate-800">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">Let's Connect</h2>
+      <p class="text-slate-400 max-w-lg mx-auto mb-8 text-sm">
+        Looking for a skilled .NET Software Engineer with proven enterprise integration experience? Feel free to reach out directly.
+      </p>
+
+      <div class="flex flex-wrap justify-center items-center gap-4 mb-12">
+        <a href="mailto:satyadalayi.319@gmail.com" class="px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm transition flex items-center gap-2">
+          <i class="fa-solid fa-envelope"></i> satyadalayi.319@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/satya-dalayi-dotnetdev/" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium text-sm transition border border-slate-700 flex items-center gap-2">
+          <i class="fa-brands fa-linkedin text-blue-400"></i> Connect on LinkedIn
+        </a>
+      </div>
+
+      <p class="text-xs text-slate-600">
+        &copy; 2026 Satya Dalayi. Built with Tailwind CSS and hosted on GitHub Pages.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
